@@ -1,0 +1,430 @@
+
+.contenedor{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main{
+  width: 70%;
+  background: #fff;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  font-family: 'Baloo 2', cursive;
+}
+.main img{
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+footer{
+  clear: both;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  color: rgb(192, 192, 192);
+  background-image: linear-gradient(grey, rgb(211, 211, 211));
+  flex-direction: row;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  border:black solid 2px;
+}
+footer img{
+  margin: 0 80px;
+}
+
+/*Menu desplegable*/
+header {
+  background: grey;
+  width: 1200px;
+  height: 60px;
+  background-image: linear-gradient(grey, rgb(211, 211, 211));
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.nav-link{
+  color:black;
+  text-decoration: none;
+}
+.logo{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0;
+  margin-top: -10px;
+  line-height: 60px;
+}
+.nav-menu{
+  display: flex;
+  list-style: none;
+}
+.nav-menu-item{
+  font-size: 15px;
+  margin: 20px;
+  line-height: 15px;
+  text-transform: uppercase;
+  width: max-content;
+}
+.nav-menu-link{
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+.nav-menu-link:hover{
+  background-color:white ;
+  color: #000;
+}
+/*UBICACION*/
+.carruseltext{
+  color: #fff;
+}
+.ubicacion img{
+    width: 800px;
+    border: black solid 1px;
+    margin-bottom: 0px;
+}
+.ubicacion h6{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: black;
+  color: #fff;
+}
+/*Aside*/
+aside{
+  height: 1400px;
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: black;
+  float: left;
+  margin-top: 0px;
+  text-align: center;
+  color: #fff;
+}
+.rescatista{
+    height: 300px;
+    width: 200px;
+    background-color: black;
+    background: black;
+    margin-top: 100px;
+    border: solid white 2px;
+}
+.textresca{
+  margin-top: 120px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+aside h4 {
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  width: 200px;
+  margin: 0 60px;
+}
+.imagenes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+  align-content: center;
+  padding: 20px 20px;
+  margin-left: 30px;
+}
+/*Texto principal*/
+.h2ini {
+  margin-top: 70px;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  background: black;
+}
+.pini{
+  font-size: 18px;
+
+}
+/*CONTACTO*/
+.titlecontact{
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.contactaside{
+  height: 840px;
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: black;
+  float: left;
+  margin-top: 0px;
+  text-align: center;
+  color: #fff;
+}
+/*ADOPCION*/
+.adopciontext{
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.maindonacion{
+  height: 840px;
+  width: 70%;
+  background: #fff;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+}
+.content{
+  margin-top: 100px;
+}
+/*SOBRE NOSOTROS*/
+.textocuidado{
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.videocuidado {
+  align-content: center;
+  border-radius: 10%;
+  border-color: black;
+  border: solid black 4px;
+  width:560px;
+  height:315px;
+}
+.videocuidado2{
+  border-radius: 10%;
+  border-color: black;
+  border: solid black 4px;
+  width:560px;
+  height:315px;
+}
+/*perros*/
+article{
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-content: right;
+  background: black;
+  color: #fff;
+  border: solid black 2px;
+  margin: 20px 0;
+}
+.mainperros{
+  width: 70%;
+  background: #fff;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+}
+article p {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px){
+  /*Main*/
+   .main{
+     width: 70%;
+   }
+   .main img{
+     margin-top: 2px;
+   }
+   .carruseltext{
+     color: white;
+   }
+   .videocuidado {
+    align-content: center;
+    border-radius: 10%;
+    border-color: black;
+    border: solid black 4px;
+    width:360px;
+    height:200px;
+  }
+  .videocuidado2{
+    border-radius: 10%;
+    border-color: black;
+    border: solid black 4px;
+    width:360px;
+    height:200px;
+  }
+  .ubicacion h6{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    color: #fff;
+    width: 570px;
+  }
+  /*Aside*/
+   aside{
+     height: 700px;
+     width: 30%;;
+   }
+   .imagenes{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-top: 150px;
+    align-content: center;
+    height: 80px;
+    width: 150px;
+  }
+  .imagen1{
+    height: 80px;
+    width: 100px;
+    margin-top: 40px;
+  }
+   .ubicacion img{
+    width: 570px;
+    border: black solid 1px;
+    margin-bottom: 0px;
+}
+.rescatista{
+  margin-left: 2000px;
+}
+.textresca{
+margin-left: 2000px;
+}
+aside h4 {
+margin-left:2000px ;
+}
+  /*Header*/
+   header {
+    background: grey;
+    width: 601px;
+    height: 60px;
+    background-image: linear-gradient(grey, rgb(211, 211, 211));
+  }
+  .nav-menu-item{
+    font-size: 10px;
+    margin: 0;
+    padding-right: 6px;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+  .logo{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height: 40px;
+  }
+  /*Footer*/
+  footer img{
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 480px){
+  .contenedor{
+    width: 100%;
+  }
+    /*Main*/
+    .main{
+      width: 70%;
+    }
+    .main img{
+      margin-top: 2px;
+    }
+    .carruseltext{
+      color: white;
+    }
+    .logo{
+      font-size: 15px;
+      font-weight: bold;
+      padding-left: 0;
+      margin-top: -10px;
+      line-height: 60px;
+    }
+    .videocuidado {
+     align-content: center;
+     border-radius: 10%;
+     border-color: black;
+     border: solid black 4px;
+     width:380px;
+     height:200px;
+   }
+   .videocuidado2{
+     border-radius: 10%;
+     border-color: black;
+     border: solid black 4px;
+     width:380px;
+     height:200px;
+   }
+   .ubicacion h6{
+     font-size: 20px;
+     text-align: center;
+     margin-top: 50px;
+     background-color: black;
+     color: #fff;
+     width: 420px;
+   }
+   /*Aside*/
+    aside{
+      height: 700px;
+      width: 30%;
+    }
+    .imagenes{
+     display: flex;
+     flex-direction: column;
+     margin-left: -10px;
+     margin-top: 150px;
+     align-content: center;
+     height: 80px;
+     width: 150px;
+   }
+   .imagen1{
+     height: 80px;
+     width: 100px;
+     margin-top: 40px;
+   }
+    .ubicacion img{
+     width: 420px;
+     border: black solid 1px;
+     margin-bottom: 0px;
+ }
+ .rescatista{
+   margin-left: 2000px;
+ }
+ .textresca{
+ margin-left: 2000px;
+ }
+ aside h4 {
+ margin-left:2000px ;
+ }
+   /*Header*/
+    header {
+     background: grey;
+     width: 601px;
+     height: 60px;
+     background-image: linear-gradient(grey, rgb(211, 211, 211));
+   }
+   .nav-menu-item{
+     font-size: 10px;
+     margin-top: -80px;
+     padding: 10px;
+     line-height:60px;
+     text-transform: uppercase;
+     width: min-content;
+     flex-direction: row;
+   }
+   .lo
+   .logo{
+     font-size: 10px;
+     font-weight: bold;
+     padding: 0 20px;
+     line-height: 40px;
+   }
+   /*Footer*/
+   footer img{
+     margin: -30px;
+     padding-top: 20px;
+   }
+}
